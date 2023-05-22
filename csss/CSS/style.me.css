@@ -1,0 +1,53 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: url(./big.jpg) center/cover no-repeat;
+}
+.web{
+   font-size: 25px;
+   text-transform: uppercase;
+   margin: 20px;
+   font-family: fantasy;
+}
+.site{
+   font-size: 18px;
+   text-transform: capitalize;
+   margin: 20px; 
+}
+.mee{
+   word-spacing: 4px;
+   float: right;
+}
+a{
+   text-transform: capitalize;
+   font-size: 17px;
+   border: 2px solid wheat 1;
+   border-radius: 5px;
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+   transition-property: background;
+   transition-duration: 0.5s;
+}
+a:hover{
+   background: white;
+   color: black;
+}
+.garden{
+   text-align: center;
+   margin-top: 20%;
+   text-transform: capitalize;
+   
+   font-family: fantasy;
+}
+.gift{
+   text-align: center;
+   margin-top: 10px;
+   text-transform: uppercase;
+   font-size: 40px;
+     font-family: fantasy;
+}
+.w{
+   text-align: center;
+   margin-top: 20px;  
+}

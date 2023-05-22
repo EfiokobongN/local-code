@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.content {
+  border: 5px #9d9df3 solid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #f1e3e3;
+  padding: 20px;
+}
+table {
+  width: 100%;
+}
+td:first-child {
+  width: 100%;
+}
+td:last-child {
+  min-width: 125px;
+}
+th {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: rgb(250, 245, 245);
+}
+input,
+button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px #c0bdbd solid;
+}
+button {
+  cursor: pointer;
+}
+button.add {
+  background-color: #0f7deb;
+  color: #fff;
+}
+button.edit {
+  background-color: #0f7deb;
+  color: #fff;
+}
+button.delete {
+  background-color: #ff0000;
+  color: rgb(230, 136, 136);
+}
+button.save {
+  background-color: #36f507;
+  color: #fff;
+}
+button.back {
+  background-color: #8c9297;
+  color: #fff;
+}
+.task {
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
+.main {
+  width: 800px;
+  padding: 50px;
+  margin: 50px auto;
+  background-color: #f0f0ff;
+  border-radius: 10px;
+}
+th {
+  text-align: center;
+}

@@ -1,0 +1,138 @@
+
+/* master styles */
+body{
+   font-family: sans-serif;
+   margin:0 ;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+/* nav styles */
+.nav-wrapper{
+   display: flex;
+   justify-content: space-between;
+   padding: 38px;
+}
+
+.left-side{
+   display: flex;
+}
+
+
+.nav-wrapper > .left-side >div{
+   margin: 20px;
+   font-size: 0.9em;
+   text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+   height: 22px;
+   border-bottom: 1px solid transparent;
+   transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+color: #8a8a8a;
+text-decoration: none;
+transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+   border-bottom:1px solid #222 ;
+}
+
+.active-nav-link{
+   border-bottom:1px solid #222 ;
+}
+
+.active-nav-link a{
+   color: #222;
+}
+
+.nav-link-wrapper a:hover{
+   color: #222;
+}
+
+.img-wrapper h1{
+   color: #fff;
+}
+.img-wrapper h1 .me{
+   background-color: #fff;
+}
+
+
+/* portfoolio styles */
+.portfolio-items-wrapper{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+   position: relative;
+}
+
+.portfolio-img-background{
+   height: 350px;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+   position: absolute;
+   top: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 100%;
+   padding-left: 100px;
+   padding-right:100px ;
+
+}
+
+.logo-wrapper-img{
+   width: 50%;
+   margin-bottom:20px ;
+   color: #fff;
+}
+.img-text-wrapper .subtitle{
+   transition: 1s;
+   font-weight: 600;
+   color: transparent;
+}
+
+
+
+.img-text-wrapper:hover .subtitle{
+   font-weight: 600;
+   color:lightseagreen ;
+}
+.img-darken{
+   transition: 1s;
+   filter: brightness(10%);
+}
+
+/* about page*/
+
+.two-column-wrapper{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper{
+   width: 100%;
+}
+
+.profile-content-wrapper{
+   padding: 30px;
+}
+.profile-content-wrapper h1{
+   color: lightseagreen;
+}
+

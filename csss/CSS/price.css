@@ -1,0 +1,33 @@
+html{
+   box-sizing: border-box;
+}
+body{
+   padding: 0;
+   margin: 0;
+}
+
+.two{
+   width: 400px;
+}
+.one{
+   word-spacing: 30px;
+   font-size: 40px;
+}
+label{
+   margin-top: 5%;
+   justify-content: space-between;
+   
+
+}
+.t{
+   padding-right: 10px;
+   font-size: 27px;
+}
+.y{
+   padding-left: 1rem; 
+   font-size: 27px;
+}
+.l{
+   padding-left: 2rem; 
+   font-size: 27px; 
+}

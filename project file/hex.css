@@ -1,0 +1,31 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.container{
+   text-align: center;
+   text-transform: capitalize;
+}
+
+div h2{
+text-align: center;
+background-color: black;
+width: 360px;
+font-size: 27px;
+margin-left: 37%;
+border-radius: 10px;
+box-sizing: border-box;
+color: red;
+
+}
+ button{
+   width: 100px;
+   text-transform: capitalize;
+   border-radius: 9px;
+   font-size: 20px;
+
+}
+
+
+
+

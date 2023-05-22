@@ -1,0 +1,19 @@
+div{
+   min-height: 100vh;
+   margin: 10px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 50px;
+   color: red;
+   text-transform: capitalize;
+}
+.one{
+   background: url(./Quote.jpg)center/cover fixed no-repeat;
+}
+.two{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),
+   url(./Quote.jpg)center/cover no-repeat;
+}

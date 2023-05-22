@@ -1,0 +1,61 @@
+
+h1{
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   background: url(./Quote.jpg)center/cover no-repeat;
+}
+div{
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   background: url(./green\ field.jpg)center/cover no-repeat;
+   margin-left: 40%; 
+}
+h2{
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   background: url(./pink\ field.jpg)center/cover no-repeat;
+   margin-left: 40%;   
+}
+.transition{
+   transition: all 5s linear;
+   transition-timing-function:10s ;
+}
+.transition:hover{
+   transform: translateY(100px);
+   border-radius: 50%;
+}
+.animation{
+   animation-name: move;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+@keyframes move{
+0%{
+   transform: translateX(-50px);
+   border-radius: 40%;
+}
+30%{
+   transform: skewX(60deg);
+}
+50%{
+   transform: skew(80deg);
+   border-radius: 50px;
+}
+75%{
+   transform: skewY(70deg);
+  
+}
+80%{
+   transform: rotateY(70deg);
+}
+85%{
+   transform: rotateZ(40deg);
+}
+100%{
+   transform: skew(-50deg);
+ 
+}
+}

@@ -1,0 +1,31 @@
+
+main{
+   background:mediumturquoise;
+   width: 400px;
+   margin-left: 30%;
+   margin-top: 100px;
+}
+body{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   text-transform: uppercase; 
+   font-weight: bolder;  
+}
+button{
+   text-transform: uppercase;
+   font-size: 18px;
+   border-radius: 8px ;
+   margin-top: 25px;
+   border: 2px solid black;
+}
+span{
+   font-size: 60px;
+}
+button:hover{
+   background: black;
+   color: white;
+}
+h1{
+   padding-top: 20px;
+}

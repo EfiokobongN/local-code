@@ -1,0 +1,88 @@
+body{
+   margin: 10px;
+   padding: 10px;
+   background: url(./colorful_tulips_in_keukenhof_189198.jpg)center/cover no-repeat;
+}
+.all{
+   background: linear-gradient(rgba(38, 0, 33, 1),rgba(255,255,33,0.9));
+   width: 50%;
+   margin-left: 20%;
+   height: 55%;
+}
+label{
+   text-transform: capitalize;
+   font-size: 20px;
+}
+h1{
+   text-transform: uppercase;
+   text-align: center;
+   font-family: fantasy;
+   font-size:40px;
+}
+.me{
+   text-align: center;
+}
+input{
+   width: 87px;
+}
+.two{
+   padding-left: 10px;
+}
+.thre{
+   text-align: center;
+}
+.three{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.u{
+   width: 19vw;
+}
+.v{
+   width: 21vw;
+}
+.y{
+   text-align: center;
+}
+.four{
+   padding-top: 20px;
+   margin-top: 20px;
+}
+.p{
+   text-align: center; 
+}
+.t{
+   text-align: center;
+}
+.b{
+   margin-left: 35%; 
+}
+.c{
+   width: 50px;
+}
+.d{
+   width: 37px; 
+}
+.k{
+   width: 90px; 
+}
+.age{
+   margin-left: 10px;
+}
+.o{
+   margin-left: 35%; 
+}
+.x{
+   margin-left: 20px;
+}
+.l{
+   margin-left: 30px; 
+}
+.su{
+ text-align: center; 
+ width: 10vw;
+ margin-top: 20;
+ margin-top: 10px;
+}
+
+  
